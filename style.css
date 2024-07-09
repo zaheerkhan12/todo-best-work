@@ -1,0 +1,126 @@
+
+
+body {
+    background-image: url('download.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+    font-family: Arial, sans-serif; /* Example font-family */
+    color: #333; /* Example text color */
+  }
+body{
+    background-color: #053b81;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+box-shadow: #053b81;
+}
+
+.todo-app{
+    max-width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 30px 50px;
+    margin: 120px auto 15px;
+    border-radius: 15px;
+    border: 20px solid rgb(87, 118, 202);
+}
+
+.todo-app h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+}
+
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    border: 4px solid rgb(76, 0, 255);
+    border-radius: 15px;
+    font-size: 1rem;
+}
+
+.btn{
+    background-color: #2078c0;
+    border: none;
+    color: aliceblue;
+    padding: 20px 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.btn:hover{
+    background-color: #1523eb;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-size: 1.1rem;
+    padding: 10px 6px 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+#task-list {
+    padding: 0px 30px ;
+}
+
+ul li.checked{
+    text-decoration: line-through;
+    color: #2e0deb;
+}
+
+ul li span{
+    position: absolute;
+    top: 1.8px;
+    right: 5px;
+    color: rgb(93, 121, 214);
+    font-size: 2rem;
+}
+h2{
+    color: white;
+}
+
+
+.resolve-button, .reject-button {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px; /* Add margin between buttons */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor style */
+}
+
+.resolve-button {
+  background-color: #4CAF50; /* Green background for resolve */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.reject-button {
+  background-color: #f44336; /* Red background for reject */
+  color: white; /* White text */
+  border: none; /* No border */
+}
+
+.resolve-button:hover {
+  background-color: #144d17; /* Darker green on hover */
+}
+
+.reject-button:hover {
+  background-color: #5f0f0f; /* Darker red on hover */
+}
+
+
+
+
